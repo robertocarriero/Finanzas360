@@ -1,11 +1,15 @@
 {
   "expo": {
-    "name": "practica_17",
-    "slug": "practica_17",
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "Finanzas 360",
+    "slug": "Finanzas",
+    "version": "1.0.3",
+    "orientation": "default", 
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "backgroundColor": "#f5f5f5",
+      "translucent": false
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,13 +22,21 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [],
+      "package": "com.robertocarriero.Finanzas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5d017a1-f9df-4949-b967-e7b9a10d832d"
+      }
     }
   }
 }
