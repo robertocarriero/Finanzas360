@@ -29,5 +29,9 @@ Finanzas360/
 ├── App.js
 ├── package.json
 ├── README.md
-└── app.json
+├── app.json
+├── babel.config.js
+├── eas.json
+├── .gitignore
+├── package-lock.json
 
