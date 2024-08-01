@@ -7,5 +7,27 @@
 >>>>***Conversor de moneda -***
 >>>>***Simulador de plazo fijo -***
 >>>>***Presupuesto personal -***
->>>>***Glosario financier -***
+>>>>***Glosario financiero -***
 >>>>***Enlaces a sitios web de inversión y datos financieros -***
+
+
+## Estructura del Código
+
+```plaintext
+Finanzas360/
+├──.expo
+├── assets/
+├── Screen/
+│   ├── Conversor.js
+│   ├── dolar.js
+|   ├── estadistica.js
+│   ├── Glosario.js
+│   ├── Home.js
+│   ├── Inversiones.js
+│   ├── Simulador.js
+|   ├── WebWiew.js
+├── App.js
+├── package.json
+├── README.md
+└── app.json
+
